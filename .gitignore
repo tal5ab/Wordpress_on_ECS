@@ -1,0 +1,33 @@
+
+# Created by https://www.gitignore.io/api/git,packer,ansible,terraform
+
+### Ansible ###
+*.retry
+
+### Git ###
+*.orig
+
+### Packer ###
+# Cache objects
+packer_cache/
+output-*/
+
+# For built boxes
+*.box
+
+# For build artifacts
+*.vdi
+
+### Terraform ###
+# Compiled files
+*.tfstate
+*.tfstate.*
+
+# Module directory
+.terraform/
+
+# .tfvars files
+*.tfvars
+
+
+# End of https://www.gitignore.io/api/git,packer,ansible,terraform
